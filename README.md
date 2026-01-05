@@ -1,0 +1,1 @@
+# cursor-doc-creator
