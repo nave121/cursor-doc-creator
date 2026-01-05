@@ -1,0 +1,22 @@
+graph TD
+    User[User] -->|Invokes| Cmds[Cursor Commands]
+    Cmds -->|Triggers| Agent[Code Wiki Agent]
+    Agent -->|Follows| Rules[.cursor/rules/code-wiki.mdc]
+    Rules -->|Generates/Updates| Wiki[docs/wiki/]
+    
+    subgraph "Commands (.cursor/commands)"
+        Genesis[codewiki-genesis]
+        Sync[codewiki-sync]
+        DeepDive[codewiki-deep-dive]
+        Onboard[codewiki-onboard]
+        Ask[codewiki-ask]
+        Video[codewiki-video]
+    end
+    
+    Cmds -.-> Genesis
+    Cmds -.-> Sync
+    Cmds -.-> DeepDive
+    Cmds -.-> Onboard
+    Cmds -.-> Ask
+    Cmds -.-> Video
+

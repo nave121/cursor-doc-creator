@@ -1,0 +1,31 @@
+{
+  "docs/wiki/pages/core-rules.md": {
+    "source_files": [
+      ".cursor/rules/code-wiki.mdc"
+    ],
+    "last_analyzed": "2026-01-05"
+  },
+  "docs/wiki/pages/commands.md": {
+    "source_files": [
+      ".cursor/commands/codewiki-genesis.md",
+      ".cursor/commands/codewiki-sync.md",
+      ".cursor/commands/codewiki-deep-dive.md",
+      ".cursor/commands/codewiki-onboard.md",
+      ".cursor/commands/codewiki-ask.md",
+      ".cursor/commands/codewiki-video.md"
+    ],
+    "last_analyzed": "2026-01-05"
+  },
+  "docs/wiki/README.md": {
+    "source_files": [
+      ".cursor/rules/code-wiki.mdc",
+      ".cursor/commands/codewiki-genesis.md",
+      ".cursor/commands/codewiki-sync.md",
+      ".cursor/commands/codewiki-deep-dive.md",
+      ".cursor/commands/codewiki-onboard.md",
+      ".cursor/commands/codewiki-ask.md",
+      ".cursor/commands/codewiki-video.md"
+    ],
+    "last_analyzed": "2026-01-05"
+  }
+}

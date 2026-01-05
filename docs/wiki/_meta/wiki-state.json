@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "last_scan": "2026-01-05",
+  "commit_hash": null,
+  "pages": [
+    "pages/core-rules.md",
+    "pages/commands.md"
+  ]
+}
